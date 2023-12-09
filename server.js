@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use("/todo", todo);
-const port = 3000;
+const port = 4000;
 
 // Make sure to define or retrieve your DATABASE_URL properly
 const DATABASE_URL = process.env.DATABASE_URL;
